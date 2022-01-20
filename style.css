@@ -1,0 +1,69 @@
+/* Selector Universal */
+
+*{
+    background-color: rgb(226, 225, 225);
+
+
+    /* color del texto*/
+    /*color: darkkhaki;*/
+
+}
+
+h1{
+    color: darkkhaki;
+}
+h2{
+    color: darkolivegreen;
+}
+h3{
+    color: darkorchid;
+}
+p{
+    color: darksalmon;
+}
+
+/*De clase*/ 
+.tipografia{
+    /*tipografía*/
+    font-family: sans-serif;
+
+    /*tamaño*/ 
+    font-size: 25px;
+
+    /*peso*/ 
+    font-weight: 900;
+
+    /* Alienación*/ 
+    text-align: center;
+}
+
+/* De ID */ 
+
+#color{
+    color: darkturquoise;
+}
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) 
+{
+body{
+    background-color: rgb(245, 192, 85);
+    }
+
+    p{
+    color: fuchsia;
+    }
+
+}
+
+img, video{
+    /*ancho*/ 
+    width: 400px;
+    /*altura*/
+    /*height: 400px;*/
+    }
+
